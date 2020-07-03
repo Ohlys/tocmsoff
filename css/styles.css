@@ -124,3 +124,78 @@ input::placeholder
 	font-family: 'Roboto', sans-serif;
 
 }
+
+div.erreur 
+{
+
+	height: 58px;
+	color: #FFF;
+	background-color: red;
+	line-height: 58px;
+	text-align: center;
+	border-radius: 8px;
+	user-select: none;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	box-shadow: 0px 0.25px 4px #555;
+
+}
+
+div.erreur 
+{
+
+	height: 58px;
+	color: #FFF;
+	background-color: green;
+	line-height: 58px;
+	text-align: center;
+	border-radius: 8px;
+	user-select: none;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	box-shadow: 0px 0.25px 4px #555;
+
+}
+
+a.left
+{
+
+	font-size: 20px;
+	float: left;
+	margin-left: 5%;
+
+}
+
+a.right
+{
+
+	user-select: none;
+	transition: ease .3s all;
+	float: right;
+	text-decoration: none;
+	width: 200px;
+	text-align: center;
+	color: #000;
+	border:1px solid #3DD69C;
+	height: 40px;
+	line-height: 40px;
+
+
+}
+
+a.right:hover
+{
+
+	background: #3DD69C;
+	color: #FFF;
+
+}
+
+img
+{
+
+	user-select: none;
+
+}
